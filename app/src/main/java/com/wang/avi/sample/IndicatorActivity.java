@@ -1,17 +1,18 @@
 package com.wang.avi.sample;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.wang.avi.AVLoadingIndicatorView;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * Created by Jack Wang on 2016/8/5.
  */
 
-public class IndicatorActivity extends AppCompatActivity{
+public class IndicatorActivity extends AppCompatActivity {
 
     private AVLoadingIndicatorView avi;
 
